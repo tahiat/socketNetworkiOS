@@ -8,10 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBAction func sendData(_ sender: Any) {
+        ConnectionManager.shared.emitData()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        ConnectionManager.shared.setupSocket()
     }
 
 

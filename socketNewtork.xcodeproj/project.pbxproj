@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7020CC512CDEF7EE003B2436 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020CC502CDEF7E2003B2436 /* ConnectionManager.swift */; };
 		7054B3F12CDEF129006776C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054B3F02CDEF129006776C6 /* AppDelegate.swift */; };
 		7054B3F32CDEF129006776C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054B3F22CDEF129006776C6 /* SceneDelegate.swift */; };
 		7054B3F52CDEF129006776C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054B3F42CDEF129006776C6 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7020CC502CDEF7E2003B2436 /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
 		7054B3ED2CDEF129006776C6 /* socketNewtork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socketNewtork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7054B3F02CDEF129006776C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7054B3F22CDEF129006776C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		7054B3EF2CDEF129006776C6 /* socketNewtork */ = {
 			isa = PBXGroup;
 			children = (
+				7020CC502CDEF7E2003B2436 /* ConnectionManager.swift */,
 				7054B3F02CDEF129006776C6 /* AppDelegate.swift */,
 				7054B3F22CDEF129006776C6 /* SceneDelegate.swift */,
 				7054B3F42CDEF129006776C6 /* ViewController.swift */,
@@ -88,7 +91,6 @@
 				FD24E53A13E5816DB1050181 /* Pods-socketNewtork.debug.xcconfig */,
 				FB3B94E8295B1F965B4A5ABA /* Pods-socketNewtork.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7054B3F52CDEF129006776C6 /* ViewController.swift in Sources */,
+				7020CC512CDEF7EE003B2436 /* ConnectionManager.swift in Sources */,
 				7054B3F12CDEF129006776C6 /* AppDelegate.swift in Sources */,
 				7054B3F32CDEF129006776C6 /* SceneDelegate.swift in Sources */,
 			);
@@ -272,7 +275,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -335,7 +338,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
