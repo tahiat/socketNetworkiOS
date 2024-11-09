@@ -4,7 +4,7 @@ DerivedData/
 *.xcuserdata
 *.moved-aside
 *.xcuserstate
-
+xcuserdata/
 # Keep the main .xcworkspace file but ignore user data within it
 !*.xcworkspace
 
