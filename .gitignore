@@ -1,0 +1,67 @@
+# Xcode
+#
+DerivedData/
+*.xcuserdata
+*.moved-aside
+*.xcuserstate
+
+# Keep the main .xcworkspace file but ignore user data within it
+!*.xcworkspace
+
+# Swift Package Manager
+#
+.build/
+.swiftpm/
+
+# CocoaPods
+#
+Pods/
+Podfile.lock
+
+# Carthage
+#
+Carthage/Build/
+
+# Fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/*.lock
+
+# Xcode Archive Files
+#
+*.xcarchive
+
+# App files
+#
+*.ipa
+*.app.dSYM.zip
+*.app.thinning.zip
+
+# Generated files
+#
+*.dSYM
+*.bcsymbolmap
+
+# SwiftUI Preview
+#
+*.swiftui
+
+# Code signing
+#
+*.cer
+*.mobileprovision
+*.p12
+
+# Firebase
+#
+GoogleService-Info.plist
+
+# Other
+#
+*.orig
+*.DS_Store
+.idea/
+.vscode/
